@@ -5,13 +5,13 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>@section('judul')Company Web</title>
+  <title>@section('judul')Sejahtera Mandiri Perkasa</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="{{asset('tema/img/favicon.png')}}" rel="icon">
-  <link href="{{asset('tema/img/apple-touch-icon.png')}}" rel="apple-touch-icon">
+  <link href="{{asset('tema/img/logo-sm.png')}}" rel="icon">
+  <link href="{{asset('tema/img/logo-sm.png')}}" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -43,8 +43,7 @@
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
       <a href="index.html" class="logo d-flex align-items-center">
-        <img src="tema/img/logo.png" alt="">
-        <span>FlexStart</span>
+        <img src="tema/img/logo-sm.png" class="img-fluid" style="max-width: 100%" alt="">
       </a>
 
       <nav id="navbar" class="navbar">
@@ -55,7 +54,8 @@
           <li><a class="nav-link scrollto" href="#portfolio">Portfolio</a></li>
           <li><a class="nav-link scrollto" href="#team">Team</a></li>
           <li><a href="blog.html">Blog</a></li>
-          <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
+
+          {{-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="#">Drop Down 1</a></li>
               <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
@@ -67,13 +67,10 @@
                   <li><a href="#">Deep Drop Down 5</a></li>
                 </ul>
               </li>
-              <li><a href="#">Drop Down 2</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
             </ul>
-          </li>
+          </li> --}}
 
-          <li class="dropdown megamenu"><a href="#"><span>Mega Menu</span> <i class="bi bi-chevron-down"></i></a>
+          {{-- <li class="dropdown megamenu"><a href="#"><span>Mega Menu</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li>
                 <a href="#">Column 1 link 1</a>
@@ -96,10 +93,10 @@
                 <a href="#">Column 4 link 3</a>
               </li>
             </ul>
-          </li>
+          </li> --}}
 
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-          <li><a class="getstarted scrollto" href="#about">Get Started</a></li>
+          {{-- <li><a class="getstarted scrollto" href="#about">Get Started</a></li> --}}
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -115,19 +112,19 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-6 d-flex flex-column justify-content-center">
-          <h1 data-aos="fade-up">We offer modern solutions for growing your business</h1>
-          <h2 data-aos="fade-up" data-aos-delay="400">We are team of talented designers making websites with Bootstrap</h2>
+          <h1 data-aos="fade-up">PT Sejahtera Mandiri Perkasa</h1>
+          <h2 data-aos="fade-up" data-aos-delay="400">Adalah Distributor tunggal untuk Sistem keamanan yang telah memasarkan sangat banyak Brand untuk Jenis sistem keamanan seperti CCTV, Door System, Monitor, etc.</h2>
           <div data-aos="fade-up" data-aos-delay="600">
             <div class="text-center text-lg-start">
-              <a href="#about" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
+              {{-- <a href="#about" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
                 <span>Get Started</span>
                 <i class="bi bi-arrow-right"></i>
-              </a>
+              </a> --}}
             </div>
           </div>
         </div>
         <div class="col-lg-6 hero-img" data-aos="zoom-out" data-aos-delay="200">
-          <img src="tema/img/hero-img.png" class="img-fluid" alt="">
+          <img src="tema/img/hero2-img.png" class="img-fluid" alt="">
         </div>
       </div>
     </div>
@@ -144,9 +141,9 @@
           <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
             <div class="content">
               <h3>Who We Are</h3>
-              <h2>Expedita voluptas omnis cupiditate totam eveniet nobis sint iste. Dolores est repellat corrupti reprehenderit.</h2>
+              <h2>Tentang Kami</h2>
               <p>
-                Quisquam vel ut sint cum eos hic dolores aperiam. Sed deserunt et. Inventore et et dolor consequatur itaque ut voluptate sed et. Magnam nam ipsum tenetur suscipit voluptatum nam et est corrupti.
+                As one of the largest CCTV companies in Indonesia, PT Sejahtera Mandiri Perkasa has been consistent in continuing to grow to become the best CCTV company since 2011. Good service and after-sales service remains our priority in order to create mutually beneficial and sustainable cooperative relationships.
               </p>
               <div class="text-center text-lg-start">
                 <a href="#" class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
@@ -172,32 +169,32 @@
       <div class="container" data-aos="fade-up">
 
         <header class="section-header">
-          <h2>Our Values</h2>
-          <p>Odit est perspiciatis laborum et dicta</p>
+          <h2>Our Brands</h2>
+          <p>Partner kami</p>
         </header>
 
         <div class="row">
 
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
             <div class="box">
-              <img src="tema/img/values-1.png" class="img-fluid" alt="">
-              <h3>Ad cupiditate sed est odio</h3>
+              <img src="tema/img/logo-proview.png" class="img-fluid" alt="">
+              <h3>Proview</h3>
               <p>Eum ad dolor et. Autem aut fugiat debitis voluptatem consequuntur sit. Et veritatis id.</p>
             </div>
           </div>
 
           <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="400">
             <div class="box">
-              <img src="tema/img/values-2.png" class="img-fluid" alt="">
-              <h3>Voluptatem voluptatum alias</h3>
+              <img src="tema/img/hikvision-logo.png" class="img-fluid" alt="">
+              <h3>Hikvision</h3>
               <p>Repudiandae amet nihil natus in distinctio suscipit id. Doloremque ducimus ea sit non.</p>
             </div>
           </div>
 
           <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="600">
             <div class="box">
-              <img src="tema/img/values-3.png" class="img-fluid" alt="">
-              <h3>Fugit cupiditate alias nobis.</h3>
+              <img src="tema/img/hilook-logo.png" class="img-fluid" alt="">
+              <h3>Hilook</h3>
               <p>Quam rem vitae est autem molestias explicabo debitis sint. Vero aliquid quidem commodi.</p>
             </div>
           </div>
