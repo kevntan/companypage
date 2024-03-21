@@ -10,7 +10,7 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="{{asset('tema/img/logo-sm.png')}}" rel="icon">
+  <link href="{{asset('tema/img/favicon-sm.png')}}" rel="icon">
   <link href="{{asset('tema/img/logo-sm.png')}}" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
@@ -174,6 +174,30 @@
         </header>
 
         <div class="row">
+
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="box">
+              <img src="tema/img/logo-proview.png" class="img-fluid" alt="">
+              <h3>Proview</h3>
+              <p>Eum ad dolor et. Autem aut fugiat debitis voluptatem consequuntur sit. Et veritatis id.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="400">
+            <div class="box">
+              <img src="tema/img/hikvision-logo.png" class="img-fluid" alt="">
+              <h3>Hikvision</h3>
+              <p>Repudiandae amet nihil natus in distinctio suscipit id. Doloremque ducimus ea sit non.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="600">
+            <div class="box">
+              <img src="tema/img/hilook-logo.png" class="img-fluid" alt="">
+              <h3>Hilook</h3>
+              <p>Quam rem vitae est autem molestias explicabo debitis sint. Vero aliquid quidem commodi.</p>
+            </div>
+          </div>
 
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
             <div class="box">
